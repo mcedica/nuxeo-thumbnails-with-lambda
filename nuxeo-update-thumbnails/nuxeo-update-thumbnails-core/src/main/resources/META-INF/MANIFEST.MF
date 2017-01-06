@@ -1,0 +1,10 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: sample.thumbnails
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-update-thumbnails-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: sample.thumbnails.nuxeo-update-thumbnails-core;singleton=true
+Nuxeo-Component: OSGI-INF/set-thumbnail-operation-contrib.xml,
+ OSGI-INF/disable-thumbnails-contrib.xml
